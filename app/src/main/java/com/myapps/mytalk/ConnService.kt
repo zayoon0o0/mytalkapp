@@ -34,9 +34,6 @@ class ConnService : Service() {
                 MyTalk.Connected = true
                 isConnectedLocally = true
                 Log.d(TAG, "Successfully connected to server as $username")
-                while (isActive) {
-                    recieveMessage()
-                }
             }
         }
         return START_STICKY
@@ -54,6 +51,7 @@ class ConnService : Service() {
             .build()
         val notificationManager = getSystemService(NotificationManager::class.java)
         notificationManager.notify(MESSAGE_NOTIFICATION_ID, notification)
+        MyTalk.onMessageReceived?.invoke(data)
     }
     override fun onBind(intent: Intent?): IBinder? = null
     override fun onDestroy() {

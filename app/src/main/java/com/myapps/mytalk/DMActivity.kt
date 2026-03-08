@@ -24,13 +24,7 @@ class DMActivity : AppCompatActivity() {
         messageStream = findViewById(R.id.MessageStream)
         val sendBtn = findViewById<ImageButton>(R.id.Sendtxt)
         val goBackBtn = findViewById<Button>(R.id.gobackbtn)
-        lifecycleScope.launch(Dispatchers.IO) {
-                while (isActive) {
-                    recieve_message()
-                    recieve_message()
-                    recieve_message()
-                }
-        }
+        MyTalk.onMessageReceived = { message -> receiveText(message) }
         sendBtn.setOnClickListener {
             val messageStr = messageInput.text.toString().trim()
             if (messageStr.isNotEmpty()) {
@@ -47,6 +41,10 @@ class DMActivity : AppCompatActivity() {
             startActivity(Intent(this, ChatActivity::class.java))
             finish()
         }
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        MyTalk.onMessageReceived = null
     }
     private external fun recieve_message()
     private external fun send_primessage(message: ByteArray)

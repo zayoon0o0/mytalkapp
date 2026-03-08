@@ -36,12 +36,8 @@ class ChatActivity : AppCompatActivity() {
             startService(intent)
             app.daeomenLaunched = true
         }
+        MyTalk.onMessageReceived = { message -> receiveText(message) }
         Log.d("ChatActivity", "Username: $username")
-        lifecycleScope.launch(Dispatchers.IO) {
-                while (isActive) {
-                    recieve_message()
-                }
-        }
         sendBtn.setOnClickListener {
             val text = messageInput.text.toString().trim()
             if (text.isNotEmpty()) {
@@ -65,7 +61,10 @@ class ChatActivity : AppCompatActivity() {
             exitProcess(0)
         }
     }
-
+    override fun onDestroy() {
+        super.onDestroy()
+        MyTalk.onMessageReceived = null
+    }
     private external fun send_message(message: ByteArray)
     private external fun recieve_message()
     private fun receiveText(message: ByteArray) {
