@@ -1,0 +1,49 @@
+ninja: Entering directory `/Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64
+[1/3] Building C object CMakeFiles/mytalk.dir/chat.c.o
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.c:64:18: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   64 |     send_message(&ack, 1);
+      |                  ^~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.h:18:31: note: passing argument to parameter 'msg' here
+   18 | void send_message(const char* msg, const int length);
+      |                               ^
+1 warning generated.
+[2/3] Building C object CMakeFiles/mytalk.dir/native_bindings.c.o
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:62:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   62 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:71:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   71 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:80:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   80 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:80:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   80 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:96:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   96 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:96:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   96 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:132:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+  132 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:132:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+  132 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:147:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+  147 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:147:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+  147 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:176:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  176 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11 warnings generated.
+[3/3] Linking C shared library /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64/libmytalk.so

@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/1695t2m5/armeabi-v7a'
+ninja: no work to do.

@@ -1,0 +1,6 @@
+com.myapps.mytalk.test.app-tracing-1.2.0-0 /Users/zain/.gradle/caches/8.11.1/transforms/24e75a0eaadbec175571014fe7d18893/transformed/tracing-1.2.0/res
+com.myapps.mytalk.test.app-core-1.6.1-1 /Users/zain/.gradle/caches/8.11.1/transforms/50d3788d34c40a66b2b378828c7cb305/transformed/core-1.6.1/res
+com.myapps.mytalk.test.app-androidTest-2 /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/generated/res/resValues/androidTest/debug
+com.myapps.mytalk.test.app-mergeDebugAndroidTestResources-3 /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.myapps.mytalk.test.app-mergeDebugAndroidTestResources-4 /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.myapps.mytalk.test.app-debugAndroidTest-5 /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

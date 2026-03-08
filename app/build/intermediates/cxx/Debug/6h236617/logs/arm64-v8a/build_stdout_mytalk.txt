@@ -1,0 +1,10 @@
+ninja: Entering directory `/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/arm64-v8a'
+[1/2] Building C object CMakeFiles/mytalk.dir/chat.c.o
+/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.c:64:18: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   64 |     send_message(&ack, 1);
+      |                  ^~~~
+/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.h:18:31: note: passing argument to parameter 'msg' here
+   18 | void send_message(const char* msg, const int length);
+      |                               ^
+1 warning generated.
+[2/2] Linking C shared library /home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/arm64-v8a/libmytalk.so

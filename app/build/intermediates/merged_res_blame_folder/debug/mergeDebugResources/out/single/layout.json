@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.myapps.mytalk.app-mergeDebugResources-41:/layout/activity_chat.xml",
+        "source": "com.myapps.mytalk.app-main-44:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-mergeDebugResources-41:/layout/activity_list.xml",
+        "source": "com.myapps.mytalk.app-main-44:/layout/activity_list.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-mergeDebugResources-41:/layout/activity_dmactivity.xml",
+        "source": "com.myapps.mytalk.app-main-44:/layout/activity_dmactivity.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-mergeDebugResources-41:/layout/useritem.xml",
+        "source": "com.myapps.mytalk.app-main-44:/layout/useritem.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.myapps.mytalk.app-main-44:/layout/activity_main.xml"
+    }
+]

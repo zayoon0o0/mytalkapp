@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/layout_activity_list.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/layout/activity_list.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_input_background.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/layout_activity_dmactivity.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/layout/activity_dmactivity.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_sendbtn.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/sendbtn.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_btn15036.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/btn15036.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/layout_activity_chat.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/layout_useritem.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/layout/useritem.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/layout_activity_main.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/xml_backup_rules.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/drawable_icon.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/drawable/icon.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.myapps.mytalk.app-release-33:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myapps.mytalk.app-main-34:/mipmap-mdpi/ic_launcher_foreground.png"
+    }
+]

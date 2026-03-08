@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/arm64-v8a",
+  "command": "/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android30 --sysroot=/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dmytalk_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles/mytalk.dir/chat.c.o -c /home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.c",
+  "file": "/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.c"
+},
+{
+  "directory": "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/arm64-v8a",
+  "command": "/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android30 --sysroot=/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dmytalk_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles/mytalk.dir/native_bindings.c.o -c /home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c",
+  "file": "/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c"
+}
+]

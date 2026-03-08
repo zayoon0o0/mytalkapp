@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/zain/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/zain/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mytalk::@6890427a1f51a3e7e1df": {
+      "artifactName": "mytalk",
+      "abi": "x86",
+      "output": "/home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86/libmytalk.so",
+      "runtimeFiles": []
+    }
+  }
+}

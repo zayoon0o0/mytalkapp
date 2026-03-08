@@ -1,0 +1,36 @@
+ninja: Entering directory `/Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/1695t2m5/armeabi-v7a'
+[1/3] Building C object CMakeFiles/mytalk.dir/chat.c.o
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/chat.c:23:31: warning: result of comparison of constant 1023 with expression of type 'const u_int8_t' (aka 'const unsigned char') is always true [-Wtautological-constant-out-of-range-compare]
+   23 |     size_t copy_len = (length < BUF_SIZE - 1) ? length : BUF_SIZE - 1;
+      |                        ~~~~~~ ^ ~~~~~~~~~~~~
+1 warning generated.
+[2/3] Building C object CMakeFiles/mytalk.dir/native_bindings.c.o
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:30:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   30 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:39:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   39 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:48:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   48 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:48:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   48 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:63:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   63 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:63:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   63 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:78:27: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   78 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:78:55: warning: cast to 'const char *' from smaller integer type 'char' [-Wint-to-pointer-cast]
+   78 |         connect_to_server((const char *) name, strlen((const char *const) name));
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp/native_bindings.c:111:17: warning: initializing 'const char *' with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  111 |     const char* useername = (*env)->GetByteArrayElements(env, username, NULL);
+      |                 ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9 warnings generated.
+[3/3] Linking C shared library /Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/1695t2m5/obj/armeabi-v7a/libmytalk.so

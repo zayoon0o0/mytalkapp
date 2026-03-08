@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF784F</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">myTalk</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="go_back">Go Back</string>
+    <string name="item">Item</string>
+    <string name="list_users">List Users</string>
+    <string name="list_users_button">Update List</string>
+    <string name="message">Message</string>
+    <string name="messages_will_show_here">Messages Will Show Here</string>
+    <string name="send_button">Send Button</string>
+    <string name="type_your_message_here">Type Your Message Here</string>
+    <style name="Theme.MyTalk" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

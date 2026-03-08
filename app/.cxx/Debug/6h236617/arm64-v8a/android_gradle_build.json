@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/zain/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/zain/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "mytalk::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "mytalk",
+      "output": "/home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/arm64-v8a/libmytalk.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/zain/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

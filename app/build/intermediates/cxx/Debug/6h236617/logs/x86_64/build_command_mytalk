@@ -1,0 +1,4 @@
+/Users/zain/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64 \
+  mytalk

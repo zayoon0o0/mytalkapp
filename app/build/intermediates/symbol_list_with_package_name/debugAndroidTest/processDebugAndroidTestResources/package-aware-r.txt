@@ -1,0 +1,3 @@
+com.myapps.mytalk.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

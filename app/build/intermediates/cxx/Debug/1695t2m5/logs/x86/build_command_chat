@@ -1,0 +1,4 @@
+/Users/zain/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/1695t2m5/x86 \
+  chat

@@ -1,0 +1,1 @@
+/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp/CMakeLists.txt

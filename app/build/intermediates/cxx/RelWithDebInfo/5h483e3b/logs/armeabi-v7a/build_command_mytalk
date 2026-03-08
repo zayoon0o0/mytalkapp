@@ -1,0 +1,4 @@
+/Users/zain/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/RelWithDebInfo/5h483e3b/armeabi-v7a \
+  mytalk
