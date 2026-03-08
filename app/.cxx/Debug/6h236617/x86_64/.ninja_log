@@ -1,0 +1,4 @@
+# ninja log v5
+0	102	1772983929672978314	CMakeFiles/mytalk.dir/native_bindings.c.o	c24643bae8296006
+0	142	1772983929712980146	CMakeFiles/mytalk.dir/chat.c.o	7917f55415b1cdd1
+142	183	1772983929753982024	/home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64/libmytalk.so	bbe254479ab381bf

@@ -1,0 +1,3 @@
+/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64/CMakeFiles/mytalk.dir
+/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64/CMakeFiles/edit_cache.dir
+/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64/CMakeFiles/rebuild_cache.dir

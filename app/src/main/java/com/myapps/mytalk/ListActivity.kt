@@ -41,16 +41,13 @@ class ListActivity : AppCompatActivity() {
         listbtn.setOnClickListener {
             listbtn.isEnabled = false
             Thread {
-                MyTalk.fetchingList = true
                 val usersArray = listUsers()
-                MyTalk.fetchingList = false
-                runOnUiThread {
-                    if (usersArray != null) {
+                if (usersArray != null) {
+                    runOnUiThread {
                         adapter.clearUsers()
                         usersArray.filter { it.isNotBlank() }.forEach { adapter.addUser(it) }
                         adapter.notifyDataSetChanged()
                     }
-                    listbtn.isEnabled = true
                 }
             }.start()
         }

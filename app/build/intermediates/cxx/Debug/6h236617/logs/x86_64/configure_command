@@ -1,17 +1,17 @@
-/Users/zain/Library/Android/sdk/cmake/3.22.1/bin/cmake \
-  -H/Users/zain/Documents/AndroidStudioProjects/myTalk/app/src/main/cpp \
+/home/zain/Android/Sdk/cmake/3.22.1/bin/cmake \
+  -H/home/zain/AndroidStudioProjects/myTalk/app/src/main/cpp \
   -DCMAKE_SYSTEM_NAME=Android \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
   -DCMAKE_SYSTEM_VERSION=30 \
   -DANDROID_PLATFORM=android-30 \
   -DANDROID_ABI=x86_64 \
   -DCMAKE_ANDROID_ARCH_ABI=x86_64 \
-  -DANDROID_NDK=/Users/zain/Library/Android/sdk/ndk/27.0.12077973 \
-  -DCMAKE_ANDROID_NDK=/Users/zain/Library/Android/sdk/ndk/27.0.12077973 \
-  -DCMAKE_TOOLCHAIN_FILE=/Users/zain/Library/Android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \
-  -DCMAKE_MAKE_PROGRAM=/Users/zain/Library/Android/sdk/cmake/3.22.1/bin/ninja \
-  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64 \
-  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/zain/Documents/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64 \
+  -DANDROID_NDK=/home/zain/Android/Sdk/ndk/27.0.12077973 \
+  -DCMAKE_ANDROID_NDK=/home/zain/Android/Sdk/ndk/27.0.12077973 \
+  -DCMAKE_TOOLCHAIN_FILE=/home/zain/Android/Sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \
+  -DCMAKE_MAKE_PROGRAM=/home/zain/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64 \
+  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/zain/AndroidStudioProjects/myTalk/app/build/intermediates/cxx/Debug/6h236617/obj/x86_64 \
   -DCMAKE_BUILD_TYPE=Debug \
-  -B/Users/zain/Documents/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64 \
+  -B/home/zain/AndroidStudioProjects/myTalk/app/.cxx/Debug/6h236617/x86_64 \
   -GNinja
