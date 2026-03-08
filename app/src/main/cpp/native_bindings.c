@@ -40,19 +40,6 @@ void receive_text(void *arg, void *activity_ptr, char *msg, int length) {
     (*env)->DeleteLocalRef(env, activityClass);
     receive(receive_text, env, &activityObj);
 }
-JNIEXPORT void JNICALL
-Java_com_myapps_mytalk_ChatActivity_recieve_1message(JNIEnv *env, jobject thiz) {
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
-    (*env)->DeleteGlobalRef(env, global_thiz);
-}
-
-JNIEXPORT void JNICALL
-Java_com_myapps_mytalk_DMActivity_recieve_1message(JNIEnv *env, jobject thiz) {
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
-    (*env)->DeleteGlobalRef(env, global_thiz);
-}
 
 
 JNIEXPORT void JNICALL
@@ -85,8 +72,7 @@ Java_com_myapps_mytalk_ChatActivity_send_1message(JNIEnv *env, jobject thiz, jby
     if (bytes == NULL) return;
     send_message((const char*)bytes, length);
     (*env)->ReleaseByteArrayElements(env, message, bytes, JNI_ABORT);
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
+
 }
 
 
@@ -101,8 +87,7 @@ Java_com_myapps_mytalk_DMActivity_send_1primessage(JNIEnv *env, jobject thiz, jb
     if (bytes == NULL) return;
     send_privitemessage((const char*)bytes, length);
     (*env)->ReleaseByteArrayElements(env, message, bytes, JNI_ABORT);
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
+
 }
 
 JNIEXPORT jobjectArray JNICALL
@@ -137,8 +122,7 @@ Java_com_myapps_mytalk_ListActivity_send_1message(JNIEnv *env, jobject thiz, jby
     if (bytes == NULL) return;
     send_message((const char*)bytes, length);
     (*env)->ReleaseByteArrayElements(env, message, bytes, JNI_ABORT);
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
+
 }
 
 JNIEXPORT void JNICALL
@@ -152,8 +136,7 @@ Java_com_myapps_mytalk_DMActivity_send_1message(JNIEnv *env, jobject thiz, jbyte
     if (bytes == NULL) return;
     send_message((const char*)bytes, length);
     (*env)->ReleaseByteArrayElements(env, message, bytes, JNI_ABORT);
-    jobject global_thiz = (*env)->NewGlobalRef(env, thiz);
-    receive(receive_text, env, &global_thiz);
+
 }
 
 

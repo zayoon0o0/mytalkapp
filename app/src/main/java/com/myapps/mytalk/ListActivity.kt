@@ -29,40 +29,29 @@ class ListActivity : AppCompatActivity() {
         }
         usersList.adapter = adapter
         Thread {
-            adapter.addUser(MyTalk.Username)
-            val usersBytes = listUsers()
-            if (usersBytes != null) {
-                val usersString = usersBytes.toString()
-                val usersList = usersString.lines().filter { it.isNotBlank() }
+            val usersArray = listUsers()
+            if (usersArray != null) {
                 runOnUiThread {
                     adapter.clearUsers()
-                    usersList.forEach { username ->
-                        adapter.addUser(username)
-                    }
+                    usersArray.filter { it.isNotBlank() }.forEach { adapter.addUser(it) }
                     adapter.notifyDataSetChanged()
-                    Log.d("ListActivity", "Users fetched successfully")
                 }
-            }  else {
-                Log.e("ListActivity", "Failed to fetch user list")
             }
         }.start()
         listbtn.setOnClickListener {
+            listbtn.isEnabled = false
             Thread {
+                MyTalk.fetchingList = true
                 val usersArray = listUsers()
-                if (usersArray != null) {
-                    val usersList = usersArray.filter { it.isNotBlank() }
-                    runOnUiThread {
+                MyTalk.fetchingList = false
+                runOnUiThread {
+                    if (usersArray != null) {
                         adapter.clearUsers()
-                        adapter.addUser(MyTalk.Username)
-                        usersList.forEach { username ->
-                            if (username != MyTalk.Username) {
-                                adapter.addUser(username)
-                            }
-                        }
+                        usersArray.filter { it.isNotBlank() }.forEach { adapter.addUser(it) }
                         adapter.notifyDataSetChanged()
                     }
+                    listbtn.isEnabled = true
                 }
-                Log.d("ListActivity", "Users fetched successfully")
             }.start()
         }
         gobtn.setOnClickListener {

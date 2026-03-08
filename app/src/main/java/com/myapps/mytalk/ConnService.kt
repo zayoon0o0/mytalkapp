@@ -34,6 +34,10 @@ class ConnService : Service() {
                 MyTalk.Connected = true
                 isConnectedLocally = true
                 Log.d(TAG, "Successfully connected to server as $username")
+                while (isActive) {
+                    if (!MyTalk.fetchingList) recieveMessage()
+                    else Thread.sleep(50)
+                }
             }
         }
         return START_STICKY
